@@ -22,5 +22,5 @@
             android:layout_gravity="center_vertical|start"
             android:layout_marginStart="56dp"
             style="?textAppearanceHeadline6"
-            tools:text="نام صفحه"/>
+            tools:text=" صفحه"/>
     </FrameLayout>

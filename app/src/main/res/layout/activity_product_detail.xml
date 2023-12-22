@@ -45,7 +45,7 @@
                         app:layout_constraintEnd_toStartOf="@+id/previousPriceTv"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
-                        tools:text="نام محصول" />
+                        tools:text= محصول" />
 
                     <TextView
                         android:id="@+id/previousPriceTv"
@@ -57,7 +57,7 @@
                         android:textColor="?android:textColorSecondary"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
-                        tools:text="125000 تومان" />
+                        tools:text="125000 درهم" />
 
                     <TextView
                         android:id="@+id/currentPriceTv"
@@ -67,14 +67,14 @@
                         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                         app:layout_constraintEnd_toEndOf="@+id/previousPriceTv"
                         app:layout_constraintTop_toBottomOf="@+id/previousPriceTv"
-                        tools:text="110000 تومان" />
+                        tools:text="110000 درهم" />
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
-                    android:text=" این کتونی شدیدا برای دویدن و راه رفتن مناسب هست و تقریبا. هیچ فشار مخربی رو نمیذارد به پا و زانوان شما انتقال داده شود"
+                    android:text=" این حذاء رياضي مناسب جدًا للجري والمشي ولا يُسبب تقريبًا أي ضغط ضار يُنقل إلى قدميك أو ركبتيك."
                     android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
 
                 <FrameLayout
@@ -164,7 +164,7 @@
                 android:layout_gravity="center_vertical|start"
                 android:layout_marginStart="48dp"
                 android:textAppearance="@style/TextAppearance.MyTheme.Headline6"
-                tools:text="نام محصول" />
+                tools:text=" محصول" />
         </com.google.android.material.card.MaterialCardView>
 
         <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
